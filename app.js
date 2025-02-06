@@ -71,6 +71,7 @@ function criarNovoJogo() {
   tentativas = 1;
   limparCampos()
   textoDeExibicao()
+  document.getElementById("reiniciar").setAttribute("disabled", true)
 }
 
 
